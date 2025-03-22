@@ -10,24 +10,25 @@
     background-color: #1e1e1e;
     justify-content: center;
     box-sizing: border-box;
+    padding: 100px;
 }
 
 .newsletter-header {
-    justify-content: center;
+    display: flex;
     align-items: center;
+    flex-direction: row;
 }
+
+.newsletter-header-text{
+    padding-left: 10px;
+}
+
 
 .newsletter-description {
     margin: 20px 0;
     line-height: 1.5;
     max-width: 400px;
     color: #A1A1AA;
-}
-
-.newsletter-icon {
-    flex: 1;
-    width: 100px;
-    height: 100px;
 }
 
 .newsletter-title {
@@ -53,7 +54,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .newsletter-form-title {
